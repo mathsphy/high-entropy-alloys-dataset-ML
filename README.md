@@ -3,7 +3,10 @@
 ## Dataset description [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10854500.svg)](https://doi.org/10.5281/zenodo.10854500)
 
 Our DFT dataset encompasses bcc and fcc structures composed of eight elements and overs all possible 2- to 7-component alloy systems formed by them. 
-The dataset in the csv format is publicly available on [Zenodo](https://doi.org/10.5281/zenodo.10854500), which includes the relaxed formation energies, the initial and final structures, and the Matminer features of the final structures, among other attributes.
+The dataset used in the paper is publicly available on [Zenodo](https://doi.org/10.5281/zenodo.10854500), which includes initial and final structures, formation energies, atomic magnetic moments and charges among other attributes. 
+
+*The trajectory data (energies and forces for structures during the DFT relaxations) may be released in the future as we are planning for some future work on machine learning force fields for HEMs.*
+
 
 **Table: Numbers of alloy systems and structures.**
 | No. components             | 2    | 3     | 4     | 5     | 6    | 7    | Total |
@@ -21,7 +24,8 @@ The dataset in the csv format is publicly available on [Zenodo](https://doi.org/
 </p>
 
 ## Featurization and machine learning models 
-The data on [Zenodo](https://doi.org/10.5281/zenodo.10854500)
+The data on [Zenodo](https://doi.org/10.5281/zenodo.10854500) provide the Matminer features of the initial and final structures, and a demo script to train ML models 
+
 
 
 
