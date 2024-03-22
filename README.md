@@ -47,6 +47,12 @@ The data on [Zenodo](https://doi.org/10.5281/zenodo.10854500) provide the Matmin
 </p>
 &nbsp;&nbsp; 
 
+### Effects of dataset size and use of unrelaxed vs. relaxed structures
+<p align="center" width="100%">
+    <img src="figs/fig5.png" alt="image" width="100%" height="auto">
+</p>
+&nbsp;&nbsp; 
+
 ### Overview of model performance on different generalization tasks
 <p align="center" width="100%">
     <img src="figs/table2.png" alt="image" width="100%" height="auto">
