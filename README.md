@@ -21,7 +21,8 @@ The dataset used in the paper is publicly available on [Zenodo](https://doi.org/
 | Ordered+SQS                | 5690 | 25400 | 33036 | 10875 | 4315 | 4481 | 83797 |
 
 
-### Number of structures as a function of a given constituent element. The legend indicates the number of components.
+### Number of structures as a function of a given constituent element. 
+The legend indicates the number of components.
 <p align="left" width="100%">
     <img src="figs/counts_vs_elements.png" alt="image" width="40%" height="auto">
 </p>
