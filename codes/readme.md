@@ -1,1 +1,1 @@
-Mostly boi
+The raw data can be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.10854500), which also provides the Matminer features of initial and final structures and a demo script to train tree-based models. The results in the paper can be readily reproduced by adapting the demo script for different train-test splits. Here we provide the scripts (mainly `paper_train_model.py`) to reproduce the results in the paper. For `paper_train_model.py`, you may want to first put data in the appropriate data folder and make a csv to pkl format conversion.
