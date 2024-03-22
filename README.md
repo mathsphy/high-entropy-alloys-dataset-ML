@@ -33,18 +33,24 @@ The data on [Zenodo](https://doi.org/10.5281/zenodo.10854500) provide the Matmin
 ### Generalization performance from small to large structures.
 <p align="center" width="100%">
     <img src="figs/fig2.png" alt="image" width="100%" height="auto">
+    <br>
+    <em>(a) Normalized error obtained by training on structures with ≤ N atoms and evaluating on structures with > N atoms. (b) ALIGNN prediction on SQSs with > 27 atoms, obtained by training on structures with ≤ 4 atoms. (c) Parity plot of the ALIGNN prediction on SQSs with > 27 atoms, obtained by training on structures with ≤ 8 atoms.</em>
 </p>
 &nbsp;&nbsp; 
 
 ### Generalization performance from low-order to high-order systems.
 <p align="center" width="100%">
     <img src="figs/fig3.png" alt="image" width="100%" height="auto">
+    <br>
+    <em>(a) Normalized error obtained by training on structures with ≤ N elements and evaluating on structures with >N elements. (b) Parity plot of the ALIGNN prediction on structures with ≥ 3 elements, obtained by training on binary structures. (c) Parity plot of the ALIGNN prediction on structures with ≥ 4 elements, obtained by training on binary and ternary structures.</em>
 </p>
 &nbsp;&nbsp; 
 
 ### Generalization performance from (near-)equimolar to non-equimolar structures.
 <p align="center" width="100%">
     <img src="figs/fig4.png" alt="image" width="100%" height="auto">
+    <br>
+    <em>(a) Normalized error obtained by training on structures with maxΔc below a given threshold and evaluating on the rest. (b) Predictions on non-equimolar structures (maxΔc>0) by the ALIGNN model trained on equimolar structures (maxΔc=0). (c) Predictions on structures with relatively strong deviation from equimolar composition (maxΔc > 0.2) by the ALIGNN model trained on structures with relatively weak deviation from equimolar composition (maxΔc ≤ 2). maxΔc is defined as the maximum concentration difference between any two elements in a structure.</em>
 </p>
 &nbsp;&nbsp; 
 
