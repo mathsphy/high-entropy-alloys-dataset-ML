@@ -5,10 +5,10 @@
 Our DFT dataset encompasses bcc and fcc structures composed of eight elements and overs all possible 2- to 7-component alloy systems formed by them. 
 The dataset used in the paper is publicly available on [Zenodo](https://doi.org/10.5281/zenodo.10854500), which includes initial and final structures, formation energies, atomic magnetic moments and charges among other attributes. 
 
-*The trajectory data (energies and forces for structures during the DFT relaxations) may be released in the future as we are planning for some future work on machine learning force fields for HEMs.*
+*Note: The trajectory data (energies and forces for structures during the DFT relaxations) is not published with this paper, it but will be released later in our future work on machine learning force fields for HEMs.*
 
 
-**Table: Numbers of alloy systems and structures.**
+### Table: Numbers of alloy systems and structures.
 | No. components             | 2    | 3     | 4     | 5     | 6    | 7    | Total |
 |----------------------------|------|-------|-------|-------|------|------|-------|
 | Alloy systems              | 28   | 56    | 70    | 56    | 28   | 8    | 246   |
@@ -17,16 +17,37 @@ The dataset used in the paper is publicly available on [Zenodo](https://doi.org/
 | Ordered+SQS                | 5690 | 25400 | 33036 | 10875 | 4315 | 4481 | 83797 |
 
 
-<p align="center" width="100%">
-    <img src="figs/counts_vs_elements.png" alt="image" width="60%" height="auto">
-    <br>
-    <em><strong>Figure: Number of structures as a function of a given constituent element. The legend indicates the number of components.</strong> </em>
+### Number of structures as a function of a given constituent element. The legend indicates the number of components.
+<p align="left" width="100%">
+    <img src="figs/counts_vs_elements.png" alt="image" width="50%" height="auto">
 </p>
 
-## Featurization and machine learning models 
-The data on [Zenodo](https://doi.org/10.5281/zenodo.10854500) provide the Matminer features of the initial and final structures, and a demo script to train ML models 
+## Generalization performance of machine learning models 
+The data on [Zenodo](https://doi.org/10.5281/zenodo.10854500) provide the Matminer features of initial and final structures and a demo script to train tree-based models. 
 
+*The data and codes needed to reproduce the figures (see below) in the paper will be provided on a separate Zenodo link.
 
+### Generalization performance from small to large structures.
+<p align="center" width="100%">
+    <img src="figs/fig2.png" alt="image" width="100%" height="auto">
+</p>
+&nbsp;&nbsp; 
 
+### Generalization performance from low-order to high-order systems.
+<p align="center" width="100%">
+    <img src="figs/fig3.png" alt="image" width="100%" height="auto">
+</p>
+&nbsp;&nbsp; 
+
+### Generalization performance from (near-)equimolar to non-equimolar structures.
+<p align="center" width="100%">
+    <img src="figs/fig4.png" alt="image" width="100%" height="auto">
+</p>
+&nbsp;&nbsp; 
+
+### Overview of model performance on different generalization tasks
+<p align="center" width="100%">
+    <img src="figs/table2.png" alt="image" width="100%" height="auto">
+</p>
 
 
