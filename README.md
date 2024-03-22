@@ -23,7 +23,7 @@ The dataset used in the paper is publicly available on [Zenodo](https://doi.org/
 
 ### Number of structures as a function of a given constituent element. The legend indicates the number of components.
 <p align="left" width="100%">
-    <img src="figs/counts_vs_elements.png" alt="image" width="50%" height="auto">
+    <img src="figs/counts_vs_elements.png" alt="image" width="40%" height="auto">
 </p>
 
 ## Generalization performance of machine learning models 
