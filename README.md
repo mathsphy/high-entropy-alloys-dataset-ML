@@ -1,10 +1,9 @@
 # high-entropy-alloys-dataset-ML
 
-## Dataset description
+## Dataset description [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10854500.svg)](https://doi.org/10.5281/zenodo.10854500)
 
-Our DFT dataset encompasses bcc and fcc structures composed of Cr, Mn, Fe, Co, Ni, Cu, Al, and Si. It overs all possible 2- to 7-component alloy systems formed by these eight
-elements. 
-
+Our DFT dataset encompasses bcc and fcc structures composed of eight elements and overs all possible 2- to 7-component alloy systems formed by them. 
+The dataset in the csv format is publicly available on [Zenodo](https://doi.org/10.5281/zenodo.10854500), which includes the relaxed formation energies, the initial and final structures, and the Matminer features of the final structures, among other attributes.
 
 **Table: Numbers of alloy systems and structures.**
 | No. components             | 2    | 3     | 4     | 5     | 6    | 7    | Total |
@@ -21,8 +20,8 @@ elements.
     <em><strong>Figure: Number of structures as a function of a given constituent element. The legend indicates the number of components.</strong> </em>
 </p>
 
-## Machine learning models 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10854500.svg)](https://doi.org/10.5281/zenodo.10854500)
+## Featurization and machine learning models 
+The data on [Zenodo](https://doi.org/10.5281/zenodo.10854500)
 
 
 
