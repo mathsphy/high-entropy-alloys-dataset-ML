@@ -26,9 +26,7 @@ The dataset used in the paper is publicly available on [Zenodo](https://doi.org/
 </p>
 
 ## Generalization performance of machine learning models 
-The data on [Zenodo](https://doi.org/10.5281/zenodo.10854500) provide the Matminer features of initial and final structures and a demo script to train tree-based models. The results in the paper can be readily reproduced by adapting the demo script for different train-test splits.
-
-*To do: Provide the codes that we used (mostly boilerplate) to facilitate the reproduction of our work on a separate Zenodo link.*
+The data on [Zenodo](https://doi.org/10.5281/zenodo.10854500) provide the Matminer features of initial and final structures and a demo script to train tree-based models. The results in the paper can be readily reproduced by adapting the demo script for different train-test splits. The `codes` folder provides the scripts that we used in the paper.*
 
 ### Generalization performance from small to large structures.
 <p align="center" width="100%">
