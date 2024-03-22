@@ -6,7 +6,7 @@ Our DFT dataset encompasses bcc and fcc structures composed of Cr, Mn, Fe, Co, N
 elements. 
 
 
-### Numbers of alloy systems and structures. 
+**Table: Numbers of alloy systems and structures.**
 | No. components             | 2    | 3     | 4     | 5     | 6    | 7    | Total |
 |----------------------------|------|-------|-------|-------|------|------|-------|
 | Alloy systems              | 28   | 56    | 70    | 56    | 28   | 8    | 246   |
@@ -18,5 +18,12 @@ elements.
 <p align="center" width="100%">
     <img src="figs/counts_vs_elements.png" alt="image" width="60%" height="auto">
     <br>
-    <em> Number of structures as a function of a given constituent element. The legend indicates the number of components. </em>
+    <em><strong>Figure: Number of structures as a function of a given constituent element. The legend indicates the number of components.</strong> </em>
 </p>
+
+## Machine learning models 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10854500.svg)](https://doi.org/10.5281/zenodo.10854500)
+
+
+
+
