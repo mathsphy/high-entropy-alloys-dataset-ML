@@ -1,7 +1,7 @@
 # Efficient first principles based modeling via machine learning: from simple representations to high entropy materials
 
-## Paper (online soon)
-This is the repo associated for our paper *Efficient first principles based modeling via machine learning: from simple representations to high entropy materials* (link to be inserted), which we create a large DFT dataset for HEMs and evaluate the in-distribution and out-of-distribution performance of machine learning models. 
+## Paper
+This is the repo associated for our paper [Efficient first principles based modeling via machine learning: from simple representations to high entropy materials](https://arxiv.org/html/2403.15579v1), which we create a large DFT dataset for HEMs and evaluate the in-distribution and out-of-distribution performance of machine learning models. 
 
 
 ## DFT dataset for high entropy alloys [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10854500.svg)](https://doi.org/10.5281/zenodo.10854500)
