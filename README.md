@@ -9,7 +9,7 @@ This is the repo associated for our paper *Efficient first principles based mode
 Our DFT dataset encompasses bcc and fcc structures composed of eight elements and overs all possible 2- to 7-component alloy systems formed by them. 
 The dataset used in the paper is publicly available on [Zenodo](https://doi.org/10.5281/zenodo.10854500), which includes initial and final structures, formation energies, atomic magnetic moments and charges among other attributes. 
 
-*Note: The trajectory data (energies and forces for structures during the DFT relaxations) is not published with this paper; it will be released later with our future work on machine learning force fields for HEMs.*
+*Note: The trajectory data (energies and forces for structures during the DFT relaxations) is not published with this paper; it will be released later with a work on machine learning force fields for HEMs.*
 
 
 ### Table: Numbers of alloy systems and structures.
